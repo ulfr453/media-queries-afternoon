@@ -1,0 +1,190 @@
+/* .App {
+  text-align: center;
+} */
+
+.bod-man {
+  background-image: url(http://coachmikeblogs.com/wp-content/uploads/2016/09/dark-desk-background-dark.jpg);
+  height: 100vh;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.header {
+  /* background-color: green; */
+  height: 150px;
+  display: flex;
+  
+  justify-content: space-around;
+	align-items: center;
+
+}
+
+/* //////////////// */
+.top-head {
+  color: #FED136;
+  font-family: ;
+  font-size: 25px;
+}
+
+.butt-div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+	align-items: center;
+  width: 500px;
+  
+  /* background-color: black; */
+
+}
+
+#mobile-nav {
+  display: none;
+  background-color: #FED136;
+  color: #FFFFFF;
+  border-radius: 12px;
+  width: 78px;
+  height: 38px;
+  border: none;
+}
+
+/* ////////..... */
+
+#desktop-nav {
+  display: flex;
+}
+
+
+.reduced {
+  /* justify-content: flex-end;
+  align-items: flex-end;
+  background-color: black;
+  height: 50px;
+  width: 200px; */
+
+}
+
+
+.dropdown {
+  height: 500px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  
+}
+
+.services {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+.portfolio {
+  /* margin-right: 20px; */
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+.about {
+  /* margin-right: 20px; */
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+.team {
+  /* margin-right: 20px; */
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+.contact {
+  /* margin-right: 20px; */
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.center-text {
+  /* background-color: grey; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 200px; */
+  /* margin-left: 300px; */
+  width: 800px;
+  /* margin-right: 300px; */
+
+}
+
+
+.welcome-to {
+  color: white;
+  /* margin-left: 250px; */
+  /* background-color: black; */
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+}
+
+
+.meet {
+  color: white;
+  font-size: 75px;
+}
+
+.button-box {
+  align-items: center;
+  /* margin-left: 250px; */
+  width: 200px;
+  background-color: white;
+}
+
+
+.tell-me-more {
+  background-color: yellow;
+  color: white;
+  /* margin-left: 30px; */
+  width: 200px;
+  height: 40px;
+
+}
+
+
+
+
+@media(max-width: 1000px){
+  .desktop-nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: initial
+  }
+}
